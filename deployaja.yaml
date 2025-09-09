@@ -5,21 +5,22 @@ container:
   image: ghcr.io/rafibaiqz/pondok-pesantren-wordpress:${GITHUB_SHA}
   port: 80
 resources:
-  cpu: 500m
-  memory: 512Mi
+  cpu: 1000m
+  memory: 1000Mi
   replicas: 1
 env:
   - name: APP_ENV
     value: production
 
 dependencies:
-  - name: "mysql"
-    type: "MYSQL"
+  - type: MYSQL
+    name: mysql
+    version: '8.0'
 
 domain: pondok-pesantren-wordpress.deployaja.id
 envMap:
-  db_host: MYSQL_HOST
-  db_name: MYSQL_DATABASE
-  db_user: MYSQL_USER
-  db_password: MYSQL_PASSWORD
-  db_pass: MYSQL_PASSWORD
+  db_host: WORDPRESS_DB_HOST
+  db_name: WORDPRESS_DB_NAME
+  db_user: WORDPRESS_DB_USER
+  db_password: WORDPRESS_DB_PASSWORD
+  db_pass: WORDPRESS_DB_PASSWORD
