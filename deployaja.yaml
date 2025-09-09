@@ -2,7 +2,7 @@ name: pondok-pesantren-wordpress
 version: 1.0.0
 description: pondok pesantren website using wordpress
 container:
-  image: pondok-pesantren-wordpress:latest
+  image: ghcr.io/rafibaiqz/pondok-pesantren-wordpress:${GITHUB_SHA}
   port: 80
 resources:
   cpu: 500m
