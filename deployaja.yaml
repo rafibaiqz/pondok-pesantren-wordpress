@@ -1,0 +1,24 @@
+name: pondok-pesantren-wordpress
+version: 1.0.0
+description: pondok pesantren website using wordpress
+container:
+  image: pondok-pesantren-wordpress:latest
+  port: 80
+resources:
+  cpu: 500m
+  memory: 512Mi
+  replicas: 1
+env:
+  - name: APP_ENV
+    value: production
+
+dependencies:
+  - type: MYSQL
+    name: MYSQL
+domain: pondok-pesantren-wordpress.deployaja.id
+envMap:
+  db_host: MYSQL_HOST
+  db_name: MYSQL_DATABASE
+  db_user: MYSQL_USER
+  db_password: MYSQL_PASSWORD
+  db_pass: MYSQL_PASSWORD
