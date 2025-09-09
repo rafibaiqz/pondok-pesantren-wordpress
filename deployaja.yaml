@@ -9,7 +9,7 @@ resources:
   memory: 1000Mi
   replicas: 1
 env:
-  - name: NODE_ENV
+  - name: APP_ENV
     value: production
 
 dependencies:
