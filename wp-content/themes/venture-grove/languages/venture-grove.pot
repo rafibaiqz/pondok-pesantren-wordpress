@@ -1,0 +1,555 @@
+# Copyright (C) 2025 venture-grove
+# This file is distributed under the same license as the venture-grove package.
+msgid ""
+msgstr ""
+"Project-Id-Version: venture-grove\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-08-07 15:37+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../functions.php:33, ../patterns/footer.php:14
+msgid "Venture Grove"
+msgstr ""
+
+#: ../patterns/404.php:14
+msgid "404: Page Not Disco-vered"
+msgstr ""
+
+#: ../patterns/404.php:18
+msgid "Looks like the dance floor is empty here! This page has done a disappearing act. Head back to the main stage by clicking the navigation links, and let's keep the party going!"
+msgstr ""
+
+#: ../patterns/404.php:25
+msgid "Go to home page"
+msgstr ""
+
+#: ../patterns/about.php:21
+msgid "15+ Golden Years"
+msgstr ""
+
+#: ../patterns/about.php:30
+msgid "Who We Are"
+msgstr ""
+
+#: ../patterns/about.php:34
+msgid "At the Heart of Every Venture Is a Story – Here’s Ours."
+msgstr ""
+
+#: ../patterns/about.php:39
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+msgstr ""
+
+#: ../patterns/about.php:44
+msgid "We don’t just build websites — we build digital foundations for ambitious brands."
+msgstr ""
+
+#: ../patterns/archive-product.php:55
+msgid " No products were found matching your selection. "
+msgstr ""
+
+#: ../patterns/archive.php:48, ../patterns/blog-left.php:58, ../patterns/blog-right.php:55, ../patterns/post.php:51, ../patterns/search.php:54
+msgid "No posts found"
+msgstr ""
+
+#: ../patterns/articles.php:12
+msgid "From News & Articles"
+msgstr ""
+
+#: ../patterns/articles.php:16
+msgid "You May Learn More By Our Recent Blog Posting."
+msgstr ""
+
+#: ../patterns/banner.php:14
+msgid "Where Vision Meets Design"
+msgstr ""
+
+#: ../patterns/banner.php:18
+msgid "Create a stunning online presence with Vanture Grove – optimized for growth, built for impact."
+msgstr ""
+
+#: ../patterns/banner.php:23
+msgid "Browse All Services"
+msgstr ""
+
+#: ../patterns/blog-left.php:9
+msgid "Blog Left Sidebar"
+msgstr ""
+
+#: ../patterns/blog-right.php:10
+msgid "Blog Right Sidebar"
+msgstr ""
+
+#: ../patterns/brands.php:14
+msgid "Our Partners"
+msgstr ""
+
+#: ../patterns/brands.php:18
+msgid "Supported by Great Partners"
+msgstr ""
+
+#: ../patterns/cart.php:18
+msgid "You may be interested in…"
+msgstr ""
+
+#: ../patterns/cart.php:76
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: ../patterns/cart.php:84
+msgid "New in store"
+msgstr ""
+
+#: ../patterns/contact-us.php:16
+msgid "contact Us !"
+msgstr ""
+
+#: ../patterns/contact-us.php:20
+msgid "Get in Touch With Us"
+msgstr ""
+
+#: ../patterns/contact-us.php:26
+msgid "Fusce convallis metus id felis luctus adipiscing. Quisque rutrum. Aliquam erat volutpat. Cras id dui. In hac habitasse platea dictumst."
+msgstr ""
+
+#: ../patterns/contact-us.php:30
+msgid "+01-(123)-456789"
+msgstr ""
+
+#: ../patterns/contact-us.php:34
+msgid "youremail@example.com"
+msgstr ""
+
+#: ../patterns/contact-us.php:38
+msgid "123, Street 25, NSW Australia"
+msgstr ""
+
+#: ../patterns/contact-us.php:42
+msgid "Find Us On:"
+msgstr ""
+
+#: ../patterns/contact-us.php:57
+msgid "Call US Now !"
+msgstr ""
+
+#: ../patterns/counter.php:14
+msgid "200+"
+msgstr ""
+
+#: ../patterns/counter.php:18
+msgid "We’re a family"
+msgstr ""
+
+#: ../patterns/counter.php:22, ../patterns/counter.php:38, ../patterns/counter.php:54, ../patterns/counter.php:70
+msgid "Aenean vulputate eleifend tellus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis."
+msgstr ""
+
+#: ../patterns/counter.php:30
+msgid "99%"
+msgstr ""
+
+#: ../patterns/counter.php:34, ../patterns/icon-box.php:106
+msgid "Graphic Design"
+msgstr ""
+
+#: ../patterns/counter.php:46
+msgid "1.5M+"
+msgstr ""
+
+#: ../patterns/counter.php:50
+msgid "Digital Marketing"
+msgstr ""
+
+#: ../patterns/counter.php:62
+msgid "1.5K"
+msgstr ""
+
+#: ../patterns/counter.php:66
+msgid "Project Done"
+msgstr ""
+
+#: ../patterns/cta.php:20
+msgid "1200+"
+msgstr ""
+
+#: ../patterns/cta.php:24
+msgid "Projects Done"
+msgstr ""
+
+#: ../patterns/cta.php:36
+msgid "100+"
+msgstr ""
+
+#: ../patterns/cta.php:40
+msgid "Happy Clients"
+msgstr ""
+
+#: ../patterns/cta.php:52
+msgid "15+"
+msgstr ""
+
+#: ../patterns/cta.php:56
+msgid "Years Experiance"
+msgstr ""
+
+#: ../patterns/cta.php:71, ../patterns/cta.php:85
+msgid "Lorem Ipsum has been the industry's standard dummy..."
+msgstr ""
+
+#: ../patterns/cta.php:101
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that"
+msgstr ""
+
+#: ../patterns/cta.php:112
+msgid "Flash Offer: 25% Off – Don’t Miss Out!"
+msgstr ""
+
+#: ../patterns/cta.php:116
+msgid "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a.."
+msgstr ""
+
+#: ../patterns/cta.php:120
+msgid " The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,"
+msgstr ""
+
+#: ../patterns/cta.php:125
+msgid "Register Now"
+msgstr ""
+
+#: ../patterns/faq.php:18
+msgid "Contact Us Now !"
+msgstr ""
+
+#: ../patterns/faq.php:27
+msgid "FAQ'S"
+msgstr ""
+
+#: ../patterns/faq.php:31
+msgid "Have Questions? We’ve Got Answers"
+msgstr ""
+
+#: ../patterns/faq.php:37, ../patterns/faq.php:47, ../patterns/faq.php:57, ../patterns/faq.php:67
+msgid "Morbi vestibulum volutpat enim. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Nulla facilisi. Phasellus consectetuer vestibulum elit. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros."
+msgstr ""
+
+#: ../patterns/faq.php:41, ../patterns/faq.php:51, ../patterns/faq.php:61, ../patterns/faq.php:71
+msgid "Aenean imperdiet. Nullam accumsan lorem in dui. Etiam rhoncus. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Ut a nisl id ante tempus hendrerit."
+msgstr ""
+
+#: ../patterns/footer.php:22
+msgid "Pellentesque ut neque. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. In ut quam vitae odio lacinia tincidunt. Vestibulum dapibus nunc ac augue. Sed cursus turpis vitae tortor."
+msgstr ""
+
+#: ../patterns/footer.php:28
+msgid "Quick Links"
+msgstr ""
+
+#: ../patterns/footer.php:37
+msgid "home"
+msgstr ""
+
+#: ../patterns/footer.php:41
+msgid "Services"
+msgstr ""
+
+#: ../patterns/footer.php:45
+msgid "pages"
+msgstr ""
+
+#: ../patterns/footer.php:49
+msgid "About Us"
+msgstr ""
+
+#: ../patterns/footer.php:53
+msgid "privacy Policy"
+msgstr ""
+
+#: ../patterns/footer.php:60
+msgid "get In Touch"
+msgstr ""
+
+#: ../patterns/footer.php:73
+msgid "Old City Street, USA, 123 New York 35035"
+msgstr ""
+
+#: ../patterns/footer.php:83
+msgid "(+1)-123-456-789"
+msgstr ""
+
+#: ../patterns/footer.php:93
+msgid "Example@example.com"
+msgstr ""
+
+#: ../patterns/footer.php:100
+msgid "Instagram"
+msgstr ""
+
+#: ../patterns/footer.php:132
+msgid "Designed with"
+msgstr ""
+
+#: ../patterns/footer.php:132
+msgid "WordPress "
+msgstr ""
+
+#: ../patterns/footer.php:136
+msgid "Developed By "
+msgstr ""
+
+#: ../patterns/footer.php:136
+msgid "Themegrove.com"
+msgstr ""
+
+#: ../patterns/header.php:18
+msgid "Suscribe"
+msgstr ""
+
+#: ../patterns/icon-box.php:14
+msgid "Premium Services"
+msgstr ""
+
+#: ../patterns/icon-box.php:18
+msgid "That Is The Best Service"
+msgstr ""
+
+#: ../patterns/icon-box.php:18
+msgid "Determine The Service You Need"
+msgstr ""
+
+#: ../patterns/icon-box.php:32
+msgid "UI/UX Design"
+msgstr ""
+
+#: ../patterns/icon-box.php:36, ../patterns/icon-box.php:54, ../patterns/icon-box.php:72, ../patterns/icon-box.php:92, ../patterns/icon-box.php:110, ../patterns/icon-box.php:128
+msgid "Nullam dictum felis eu pede mollis pretium. Vestibulum suscipit nulla quis orci. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Cras varius. "
+msgstr ""
+
+#: ../patterns/icon-box.php:50
+msgid "Web Development"
+msgstr ""
+
+#: ../patterns/icon-box.php:68
+msgid "App Development"
+msgstr ""
+
+#: ../patterns/icon-box.php:88
+msgid "Search Engine Optimization"
+msgstr ""
+
+#: ../patterns/icon-box.php:124
+msgid "Social Media management"
+msgstr ""
+
+#: ../patterns/portfolio.php:14
+msgid "Our Awesome Work"
+msgstr ""
+
+#: ../patterns/portfolio.php:18
+msgid "Showcasing Business Success."
+msgstr ""
+
+#: ../patterns/portfolio.php:27
+msgid "Our Work Speaks Volumes"
+msgstr ""
+
+#: ../patterns/portfolio.php:32, ../patterns/portfolio.php:48, ../patterns/portfolio.php:64, ../patterns/portfolio.php:82, ../patterns/portfolio.php:98, ../patterns/portfolio.php:114
+msgid "See Our Work"
+msgstr ""
+
+#: ../patterns/portfolio.php:43
+msgid "See What We’ve Built"
+msgstr ""
+
+#: ../patterns/portfolio.php:59
+msgid "Projects That Drive Impact"
+msgstr ""
+
+#: ../patterns/portfolio.php:77
+msgid "Projects We’re Proud Of"
+msgstr ""
+
+#: ../patterns/portfolio.php:93
+msgid "Real Results, Real Impact"
+msgstr ""
+
+#: ../patterns/portfolio.php:109
+msgid "Showcasing Business Success"
+msgstr ""
+
+#: ../patterns/portfolio.php:124
+msgid "Check All Works"
+msgstr ""
+
+#: ../patterns/post.php:10
+msgid "Blog"
+msgstr ""
+
+#: ../patterns/price-table.php:15
+msgid "Price & Plan"
+msgstr ""
+
+#: ../patterns/price-table.php:19
+msgid "Choose Your Suitable Plan"
+msgstr ""
+
+#: ../patterns/price-table.php:28
+msgid "Regular"
+msgstr ""
+
+#: ../patterns/price-table.php:32
+msgid "$99.99/"
+msgstr ""
+
+#: ../patterns/price-table.php:32, ../patterns/price-table.php:128
+msgid "Year"
+msgstr ""
+
+#: ../patterns/price-table.php:36, ../patterns/price-table.php:84, ../patterns/price-table.php:132
+msgid "Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Cras id dui. Vestibulum purus quam, scelerisque ..."
+msgstr ""
+
+#: ../patterns/price-table.php:44, ../patterns/price-table.php:92, ../patterns/price-table.php:140
+msgid "Feature First"
+msgstr ""
+
+#: ../patterns/price-table.php:48, ../patterns/price-table.php:96, ../patterns/price-table.php:144
+msgid "Feature Second"
+msgstr ""
+
+#: ../patterns/price-table.php:52, ../patterns/price-table.php:100, ../patterns/price-table.php:148
+msgid "Feature Third"
+msgstr ""
+
+#: ../patterns/price-table.php:56, ../patterns/price-table.php:104, ../patterns/price-table.php:152
+msgid "Feature Fourth"
+msgstr ""
+
+#: ../patterns/price-table.php:60, ../patterns/price-table.php:108, ../patterns/price-table.php:156
+msgid "Feature Fifth"
+msgstr ""
+
+#: ../patterns/price-table.php:67, ../patterns/price-table.php:115, ../patterns/price-table.php:163
+msgid "Choose This Plan"
+msgstr ""
+
+#: ../patterns/price-table.php:76
+msgid "Standard"
+msgstr ""
+
+#: ../patterns/price-table.php:80
+msgid "$199.99/"
+msgstr ""
+
+#: ../patterns/price-table.php:80
+msgid "year"
+msgstr ""
+
+#: ../patterns/price-table.php:124
+msgid "Enterprise"
+msgstr ""
+
+#: ../patterns/price-table.php:128
+msgid "$599.99/"
+msgstr ""
+
+#: ../patterns/services.php:14
+msgid "Services We Provide"
+msgstr ""
+
+#: ../patterns/services.php:18
+msgid "Empower Your Venture with Vanture Grove."
+msgstr ""
+
+#: ../patterns/services.php:30
+msgid "Startup Website Design"
+msgstr ""
+
+#: ../patterns/services.php:42
+msgid "Responsive Web Design"
+msgstr ""
+
+#: ../patterns/services.php:54
+msgid "Lead Generation Tools"
+msgstr ""
+
+#: ../patterns/services.php:66
+msgid "Fast Page Performance"
+msgstr ""
+
+#: ../patterns/services.php:80
+msgid "SEO Optimized"
+msgstr ""
+
+#: ../patterns/services.php:92
+msgid "Integrated Contact Forms"
+msgstr ""
+
+#: ../patterns/services.php:104
+msgid "Conversion-Ready Layouts"
+msgstr ""
+
+#: ../patterns/services.php:116
+msgid "Custom Branding Options"
+msgstr ""
+
+#: ../patterns/sidebar.php:15
+msgid "Latest Posts"
+msgstr ""
+
+#: ../patterns/sidebar.php:23
+msgid "Categories"
+msgstr ""
+
+#: ../patterns/sidebar.php:31
+msgid "Tags"
+msgstr ""
+
+#: ../patterns/single-product.php:10
+msgid "Single Product"
+msgstr ""
+
+#: ../patterns/single-product.php:58
+msgid "Related Products"
+msgstr ""
+
+#: ../patterns/team.php:12
+msgid "Our Team"
+msgstr ""
+
+#: ../patterns/team.php:16
+msgid "Experiance & Our Professionals Team"
+msgstr ""
+
+#: ../patterns/team.php:25, ../patterns/team.php:47, ../patterns/team.php:69, ../patterns/team.php:91, ../patterns/testimonials.php:28, ../patterns/testimonials.php:48, ../patterns/testimonials.php:68
+msgid "Mehedi Hassan"
+msgstr ""
+
+#: ../patterns/team.php:29, ../patterns/team.php:51, ../patterns/team.php:73, ../patterns/team.php:95
+msgid "Python Developer"
+msgstr ""
+
+#: ../patterns/team.php:29, ../patterns/team.php:51, ../patterns/team.php:73, ../patterns/team.php:95
+msgid "/"
+msgstr ""
+
+#: ../patterns/team.php:29, ../patterns/team.php:51, ../patterns/team.php:73, ../patterns/team.php:95
+msgid "CTO"
+msgstr ""
+
+#: ../patterns/testimonials.php:12
+msgid "Testimonials"
+msgstr ""
+
+#: ../patterns/testimonials.php:16
+msgid "What Our Clients Say?"
+msgstr ""
+
+#: ../patterns/testimonials.php:36, ../patterns/testimonials.php:56, ../patterns/testimonials.php:76
+msgid "Vestibulum eu odio. Nam eget dui. Nullam tincidunt adipiscing enim. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Nunc nonummy metus."
+msgstr ""

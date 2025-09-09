@@ -1,0 +1,23 @@
+(function ($) {    
+
+      $(document).ready(function(){
+        $("#sticky-header").sticky({topSpacing:0});
+         // Show scroll-to-top button when user scrolls down
+          $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $('.venture-grove-scrool-top').fadeIn();
+            } else {
+                $('.venture-grove-scrool-top').fadeOut();
+            }
+        });
+        
+          // Scroll to top when button is clicked
+          $('.venture-grove-scrool-top').click(function() {
+              $('html, body').animate({ scrollTop: 0 }, 'slow');
+          });   
+          
+          
+      });
+  
+  
+  })(jQuery);
