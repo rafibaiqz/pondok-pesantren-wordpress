@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  REGISTRY: ghcr.io/rafibaiqz
+  REGISTRY: ghcr.io/rafibaiqz/pondok-pesantren-wordpress
   GH_REGISTRY: ghcr.io
   IMAGE_NAME: pondok-pesantren-wordpress
   DOCKER_BUILDKIT: 1
