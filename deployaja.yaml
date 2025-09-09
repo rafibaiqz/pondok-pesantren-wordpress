@@ -13,8 +13,9 @@ env:
     value: production
 
 dependencies:
-  - type: MYSQL
-    name: MYSQL
+  - name: "mysql"
+    type: "MYSQL"
+
 domain: pondok-pesantren-wordpress.deployaja.id
 envMap:
   db_host: MYSQL_HOST
