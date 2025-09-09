@@ -2,7 +2,7 @@ name: pondok-pesantren-wordpress
 version: 1.0.0
 description: pondok pesantren website using wordpress
 container:
-  image: ghcr.io/rafibaiqz/pondok-pesantren-wordpress:${GITHUB_SHA}
+  image: ghcr.io/rafibaiqz/pondok-pesantren-wordpress:latest
   port: 80
 resources:
   cpu: 1000m
@@ -12,16 +12,18 @@ env:
   - name: APP_ENV
     value: production
 
+dependencies:
+  - type: MYSQL
+    name: mysql
+    version: '8.0'
+    storage_size: "2Gi"
+
+
 envMap:
   db_host: WORDPRESS_DB_HOST
   db_name: WORDPRESS_DB_NAME
   db_user: WORDPRESS_DB_USER
   db_password: WORDPRESS_DB_PASSWORD
   db_pass: WORDPRESS_DB_PASSWORD
-  
-dependencies:
-  - type: MYSQL
-    name: mysql
-    version: '8.0'
 
 domain: pondok-pesantren-wordpress.deployaja.id
