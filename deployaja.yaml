@@ -9,7 +9,7 @@ resources:
   memory: 1000Mi
   replicas: 1
 env:
-  - name: APP_ENV
+  - name: NODE_ENV
     value: production
 
 dependencies:
@@ -17,10 +17,11 @@ dependencies:
     name: mysql
     version: '8.0'
 
-domain: pondok-pesantren-wordpress.deployaja.id
 envMap:
   db_host: WORDPRESS_DB_HOST
   db_name: WORDPRESS_DB_NAME
   db_user: WORDPRESS_DB_USER
   db_password: WORDPRESS_DB_PASSWORD
   db_pass: WORDPRESS_DB_PASSWORD
+
+domain: pondok-pesantren-wordpress.deployaja.id
