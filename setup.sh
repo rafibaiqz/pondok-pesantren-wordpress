@@ -1,13 +1,13 @@
 #!/bin/bash
-source .env
+set -e
 
 wp core download --locale=id_ID --allow-root
 
 wp config create \
-  --dbname=$DB_NAME \
-  --dbuser=$DB_USER \
-  --dbpass=$DB_PASSWORD \
-  --dbhost=$DB_HOST \
+  --dbname=$WORDPRESS_DB_NAME \
+  --dbuser=$WORDPRESS_DB_USER \
+  --dbpass=$WORDPRESS_DB_PASSWORD \
+  --dbhost=$WORDPRESS_DB_HOST \
   --skip-check --allow-root
 
 wp core install \
