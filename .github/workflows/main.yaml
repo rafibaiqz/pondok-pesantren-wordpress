@@ -61,8 +61,8 @@ jobs:
         with:
           command: deploy
           api-token: ${{ secrets.DEPLOYAJA_TOKEN }}
-          additional-args: --set container.image=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
-          
+          additional-args: -f deployaja.yaml --set container.image=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
+
       - name: DeployAja Status
         uses: deployaja/deployaja-cli@v0.0.10
         with:
