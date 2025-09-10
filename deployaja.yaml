@@ -17,8 +17,6 @@ dependencies:
     name: mysql
     version: "8.0"
     storage_size: "2Gi"
-    username: pondok_wp
-    password: 12345678
 
 envMap:
   db_host: WORDPRESS_DB_HOST
