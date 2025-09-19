@@ -5,7 +5,7 @@ container:
   image: ghcr.io/rafibaiqz/pondok-pesantren-wordpress:latest
   port: 80
 resources:
-  cpu: 3000m
+  cpu: 3500m
   memory: 3500Mi
   replicas: 1
 env:
